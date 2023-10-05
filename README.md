@@ -1,9 +1,3 @@
-# Jalanin program locally
-
-```bash
-uvicorn main:app
-```
-
 # Build docker image
 
 ```bash
@@ -11,7 +5,6 @@ docker build -t my-application:latest .
 ```
 
 # Buat + jalankan docker container
-
 
 ```
 -------------------------
@@ -24,7 +17,6 @@ docker build -t my-application:latest .
 |   --------------      |
 ------------------------
 ```
-
 
 ```bash
 docker run --name my-application-container -p 3000:8000 -e USER_NAME=budi -d my-application:latest
@@ -60,15 +52,6 @@ docker images
 docker ps # list running container
 docker ps -a # list all container
 ```
-
-
-# Docker compose
-
-```bash
-docker compose up -d
-docker compose down
-```
-
 
 # Remote container
 
