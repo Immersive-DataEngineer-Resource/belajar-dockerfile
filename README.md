@@ -1,3 +1,9 @@
+# Build docker image
+
+```bash
+docker build -t my-application:latest .
+```
+
 # Buat + jalankan docker container
 
 ```
