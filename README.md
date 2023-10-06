@@ -65,6 +65,6 @@ docker exec -it <nama-container> bash
 docker logs <nama-container>
 ```
 
-1. # 10. Result
+# 10. Result
 
 ![Alt Text](./img-1.png)
