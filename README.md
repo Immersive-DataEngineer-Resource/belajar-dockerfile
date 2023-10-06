@@ -1,14 +1,10 @@
-# Result
-
-![Alt Text](./img-1.png)
-
-# Build docker image
+# 1. Build docker image
 
 ```bash
 docker build -t my-application:latest .
 ```
 
-# Buat + jalankan docker container
+# 2. Buat + jalankan docker container
 
 ```
 -------------------------
@@ -26,45 +22,49 @@ docker build -t my-application:latest .
 docker run --name my-application-container -p 3000:8000 -e USER_NAME=budi -d my-application:latest
 ```
 
-# Stop container
+# 3. Stop container
 
 ```bash
 docker stop my-application-container
 ```
 
-# Start container
+# 4. Start container
 
 ```bash
 docker start my-application-container
 ```
 
-# Hapus container
+# 5. Hapus container
 
 ```bash
 docker rm my-application-container
 ```
 
-# List image
+# 6. List image
 
 ```bash
 docker images
 ```
 
-# List container
+# 7. List container
 
 ```bash
 docker ps # list running container
 docker ps -a # list all container
 ```
 
-# Remote container
+# 8. Remote container
 
 ```bash
 docker exec -it <nama-container> bash
 ```
 
-# Munculin log
+# 9. Munculin log
 
 ```bash
 docker logs <nama-container>
 ```
+
+1. # 10. Result
+
+![Alt Text](./img-1.png)
